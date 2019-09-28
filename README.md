@@ -20,7 +20,6 @@
 ### Association
 - belongs_to :user
 
-
 ## Groups_Usersテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -40,5 +39,4 @@
 ### Association
 - belongs_to :group
 - belongs_to :user
-readme.md
-readme.md を表示しています。
+
