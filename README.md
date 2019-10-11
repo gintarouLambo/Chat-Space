@@ -10,6 +10,7 @@
 - has_many :messages
 - has_many :groups_users
 - has_many :group, through: :groups_users
+- has_many :groups
 
 ## Groupsテーブル
 |Column|Type|Options|
@@ -18,6 +19,7 @@
 ### Association
 - has_many :groups_users
 - has_many :user, through: :groups_users
+- has_many :users, has_many :messages
 
 ## Groups_Usersテーブル
 |Column|Type|Options|
